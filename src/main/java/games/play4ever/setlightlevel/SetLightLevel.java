@@ -94,13 +94,25 @@ public final class SetLightLevel extends JavaPlugin implements CommandExecutor, 
                 showHelp(sender);
             } else {
 
-
-
+                int x = getNumericValue(sender, args[1], "x");
+                int y = getNumericValue(sender, args[2], "y");
+                int z = getNumericValue(sender, args[3], "z");
+                int level = getNumericValue(sender, args[3], "level");
+                LightLevelHandler.setLightLevel("world", x, y, z, level);
 
             }
             return true;
         }
         return false;
+    }
+
+    private int getNumericValue(final CommandSender sender, String text, String argumentName) {
+        try {
+            return Integer.parseInt(text);
+        } catch(Exception e) {
+            sender.sendMessage(ChatColor.RED + "Invalid value for '" + argumentName + "': " + text);
+            throw new IllegalArgumentException("Invalid value for '" + argumentName + "': " + text);
+        }
     }
 
     private void showHelp(final CommandSender sender) {
