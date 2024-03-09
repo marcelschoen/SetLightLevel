@@ -1,0 +1,11 @@
+name: SetLightLevel
+version: '${project.version}'
+main: games.play4ever.setlightlevel.SetLightLevel
+api-version: 1.14
+prefix: SetLightLevel
+author: MarcelSchoen
+description: Adds commands to set the light level of a block.
+commands:
+  setlightlevel:
+    description: SetLightLevel command.
+    aliases: [sl]
