@@ -1,11 +1,11 @@
-name: MapClocks
+name: SetLightLevel
 version: '${project.version}'
-main: games.play4ever.mapclocks.MapClocks
+main: games.play4ever.setlightlevel.SetLightLevel
 api-version: 1.14
-prefix: MapClocks
+prefix: SetLightLevel
 author: MarcelSchoen
-description: Renders digital and analog clocks on maps.
+description: Adds commands to set the light level of a block.
 commands:
-  mapclocks:
-    description: MapClocks command.
-    aliases: [mclocks]
+  setlightlevel:
+    description: SetLightLevel command.
+    aliases: [sl]

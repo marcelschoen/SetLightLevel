@@ -1,8 +1,8 @@
 package games.play4ever.test;
 
-import games.play4ever.mapclocks.Clock;
-import games.play4ever.mapclocks.ClockManager;
-import games.play4ever.mapclocks.ClockUpdateThread;
+import games.play4ever.setlightlevel.Clock;
+import games.play4ever.setlightlevel.ClockManager;
+import games.play4ever.setlightlevel.ClockUpdateThread;
 
 import javax.swing.*;
 import java.awt.*;

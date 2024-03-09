@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>games.play4ever</groupId>
-    <artifactId>MapClocks</artifactId>
-    <version>0.9.0</version>
+    <artifactId>SetLightLevel</artifactId>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
 
-    <name>MapClocks</name>
+    <name>SetLightLevel</name>
 
-    <description>Turns maps into digital or analog clocks!</description>
+    <description>Adds commands to set the light level of a block</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
